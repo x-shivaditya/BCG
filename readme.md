@@ -57,8 +57,9 @@ Before starting with this PySpark project, ensure you have the following:
 
 ## Installing
 
-Clone the Github Repo with the URL.
+Git Link:
 ```
+https://github.com/x-shivaditya/BCG.git
 ```
 
 ### Consideration
