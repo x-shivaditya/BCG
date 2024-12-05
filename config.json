@@ -1,0 +1,25 @@
+{
+    "logs_path": "logs",
+    "data_file_name": 
+    {
+          "Charges": "src/Charges_use.csv",
+          "Damages": "src/Damages_use.csv",
+          "Endorse": "src/Endorse_use.csv",
+          "Primary_Person": "src/Primary_Person_use.csv",
+          "Units": "src/Units_use.csv",
+          "Restrict": "src/Restrict_use.csv"
+       },
+    "output_path": {
+        "task_1": "./output/analysis_1",
+        "task_2": "./output/analysis_2",
+        "task_3": "./output/analysis_3",
+        "task_4": "./output/analysis_4",
+        "task_5": "./output/analysis_5",
+        "task_6": "./output/analysis_6",
+        "task_7": "./output/analysis_7",
+        "task_8": "./output/analysis_8",
+        "task_9": "./output/analysis_9",
+        "task_10": "./output/analysis_10"
+    },
+    "file_format": "csv"
+}
