@@ -67,8 +67,9 @@ The following module was created and tested on Windows
 
 ## Steps:
 1. Extract the BCG zip folder
-2. Go to the Project Directory: `cd bcg`
-3. Spark Submit
+2. Rename it to 'BCG'; if it is currently named something else
+3. Go to the Project Directory: `cd bcg`
+4. Spark Submit
    ```
    spark-submit main.py --config config.json 
    ```
