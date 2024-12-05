@@ -29,6 +29,9 @@ Note: All the outputs are stored in the `output` folder within each individual a
 - Data transformation capabilities using using Data Frame APIs
 - Flexible log path management to track the application's behavior
 
+### Consideration
+The following module was created and tested on Windows
+
 ## Prerequisites
 Before starting with this PySpark project, ensure you have the following:
 1. Software Setup
@@ -56,24 +59,22 @@ Before starting with this PySpark project, ensure you have the following:
         set HADOOP_HOME=C:\path\to\winutils
 
 ## Installing
-
-Git Link:
+Clone the Github Repo with the URL
 ```
-https://github.com/x-shivaditya/BCG.git
+git clone https://github.com/x-shivaditya/BCG.git
 ```
+In case you are downloading the repo, follow the steps below:
+1. Extract the downloaded zip folder
+2. Rename it to 'BCG' if it is currently named something else
 
-### Consideration
-The following module was created and tested on Windows
 
 ## Steps:
-1. Extract the BCG zip folder
-2. Rename it to 'BCG'; if it is currently named something else
-3. Go to the Project Directory: `cd bcg`
-4. Spark Submit
+1. Go to the Project Directory: `cd bcg`
+2. Spark Submit
    ```
    spark-submit main.py --config config.json 
    ```
-Note: In case you are replacing the CSV, please extract it from the ZIP file
+Note: In case you are replacing the CSV, please extract it from the ZIP file.
 
 ## Structure
 ```
