@@ -34,7 +34,7 @@ Before starting with this PySpark project, ensure you have the following:
 1. Software Setup
     Java: PySpark requires Java Development Kit (JDK). Install JDK version 8 or 11
         a. Verify installation with:
-            java -version
+            ```java -version```
 
     Apache Spark: Download and set up Apache Spark
         a. Download Spark (pre-built for Hadoop)
@@ -44,7 +44,7 @@ Before starting with this PySpark project, ensure you have the following:
 2. Python Environment
     Use a package manager like Anaconda or virtualenv to manage dependencies.
     Install PySpark via pip:
-        pip install pyspark
+       ```pip install pyspark```
 3. Environment Variables
     Ensure the following environment variables are configured:
         a. JAVA_HOME: Path to the Java installation
@@ -54,6 +54,12 @@ Before starting with this PySpark project, ensure you have the following:
     Download and configure winutils.exe for Hadoop binaries.
     Set the Hadoop home directory:
         set HADOOP_HOME=C:\path\to\winutils
+
+## Installing
+
+Clone the Github Repo with the URL.
+```
+```
 
 ### Consideration
 The following module was created and tested on Windows
@@ -68,6 +74,7 @@ The following module was created and tested on Windows
 Note: In case you are replacing the CSV, please extract it from the ZIP file
 
 ## Structure
+```
 BCG
 ├─ core
 │  ├─ __init__.py
@@ -102,3 +109,4 @@ BCG
 |     └─ Data.zip   
 ├─ config.json
 └─ readme.md
+```
